@@ -28,16 +28,6 @@ const MainView: React.FC = () => {
         );
     };
 
-    const DarkTooltip = withStyles(theme => ({
-        tooltip: {
-            backgroundColor: "#171717",
-            color: "#ffffff",
-            boxShadow: theme.shadows[1],
-            fontSize: 11,
-            maxWidth: 120
-        },
-    }))(Tooltip);
-
     return (
         <div className={getClassName()}>
             <div className="Slider" id="lower">
