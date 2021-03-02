@@ -47,7 +47,7 @@ const TopNavigationBar: React.FC<IProps> = ({updateActivePopupType, updateProjec
                             alt={"make-sense"}
                             src={"/make-sense-ico-transparent.png"}
                         />
-                        Make Sense
+                        Intuitivo Annotation Dashboard
                     </div>
                 </div>
                 <div className="NavigationBarGroupWrapper">

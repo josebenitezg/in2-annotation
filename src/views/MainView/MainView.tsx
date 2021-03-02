@@ -110,7 +110,7 @@ const MainView: React.FC = () => {
                     />
                 </div>
                 <div className="EditorFeaturesWrapper">
-                    {getEditorFeatureTiles()}
+                    <h2>  Welcome to intuitivo labeling Dashboard</h2>
                 </div>
                 <div className="TriangleVertical">
                     <div className="TriangleVerticalContent"/>
@@ -123,9 +123,7 @@ const MainView: React.FC = () => {
             <div className="RightColumn">
                 <div/>
                 <ImagesDropZone/>
-                <div className="SocialMediaWrapper">
-                    {getSocialMediaButtons({width: 30, height: 30})}
-                </div>
+                
                 {!projectInProgress && <TextButton
                     label={"Get Started"}
                     onClick={startProject}
