@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import './MainView.scss';
 import {TextButton} from "../Common/TextButton/TextButton";
 import classNames from 'classnames';
-import {Tooltip} from "@material-ui/core";
-import withStyles from "@material-ui/core/styles/withStyles";
 import ImagesDropZone from "./ImagesDropZone/ImagesDropZone";
 
 const MainView: React.FC = () => {
