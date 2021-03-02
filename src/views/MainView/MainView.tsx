@@ -2,12 +2,7 @@ import React, {useState} from 'react';
 import './MainView.scss';
 import {TextButton} from "../Common/TextButton/TextButton";
 import classNames from 'classnames';
-import {ISize} from "../../interfaces/ISize";
-import {ImageButton} from "../Common/ImageButton/ImageButton";
-import {ISocialMedia, SocialMediaData} from "../../data/info/SocialMediaData";
-import {EditorFeatureData, IEditorFeature} from "../../data/info/EditorFeatureData";
 import {Tooltip} from "@material-ui/core";
-import Fade from "@material-ui/core/Fade";
 import withStyles from "@material-ui/core/styles/withStyles";
 import ImagesDropZone from "./ImagesDropZone/ImagesDropZone";
 
